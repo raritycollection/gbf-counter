@@ -1,0 +1,60 @@
+{
+  "name": "gbf-counter",
+  "version": "0.4.1",
+  "description": "GBF counter",
+  "productName": "gbf-counter",
+  "author": "awayz",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.14.3",
+    "axios": "^0.21.4",
+    "dayjs": "^1.11.3",
+    "echarts": "^5.3.3",
+    "electron-json-storage": "^4.5.0",
+    "quasar": "^2.7.5",
+    "vue": "^3.2.37",
+    "vue-digit-animation": "^0.2.1",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.1.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
+    "@quasar/app": "^3.3.3",
+    "@types/node": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "core-js": "^3.23.4",
+    "electron": "^16.2.8",
+    "electron-builder": "^22.14.13",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
